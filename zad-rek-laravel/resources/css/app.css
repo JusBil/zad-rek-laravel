@@ -1,0 +1,152 @@
+div#page {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  max-width: 72%;
+  margin: auto;
+  font-family: sans-serif;
+  gap: 3rem;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 1rem 2rem;
+  background: blue;
+  max-width: fit-content;
+  font-family: sans-serif;
+  line-height: 1.25em;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+.btn:hover {
+  background-color: darkblue;
+}
+a.add.btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+td.action {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem!important;
+}
+td.available {
+  color: green;
+}
+td.sold {
+  color: red;
+}
+.filters {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.filters a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.filters a.checked {
+  color: blue;
+}
+
+.filters .filter-btn:hover {
+  color: blue;
+}
+p.error {
+  color: red;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 3px solid blue;
+  padding: 1rem 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 20rem;
+  margin: auto;
+}
+
+.input-wrapper label {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+form input[type=text], form select {
+  padding: 0.45rem;
+  border: 3px solid black;
+  font-weight: 600;
+  width: 100%;
+}
+h2.not-found {
+  text-align: center;
+  font-size: 3rem;
+}
+table.data-table {
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.data-table td, table.data-table th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 4px;
+  }
+  table.data-table tbody td {
+    font-size: 13px;
+  }
+  table.data-table td:nth-child(even) {
+    background: #EBEBEB;
+  }
+  table.data-table thead {
+    background: #FFFFFF;
+    border-bottom: 4px solid #333333;
+  }
+  table.data-table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+  }
+  table.data-table thead th:first-child {
+    border-left: none;
+  }
+  table.data-table tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+  }
+  table.data-table tfoot td {
+    font-size: 14px;
+  }
